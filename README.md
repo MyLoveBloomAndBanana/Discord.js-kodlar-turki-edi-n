@@ -1,1 +1,1 @@
-# Discord.js-kodlar-turki-edi-n
+# Discord.js-kodlar-turkis-edisn
