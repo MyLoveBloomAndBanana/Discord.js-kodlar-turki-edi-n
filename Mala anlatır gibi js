@@ -1,0 +1,21 @@
+/*
+	Bu bota diskorttan ping dendiğinde pong diyo salaklar azcık googleleyin am*
+*/
+
+// indir şunu discord.js
+var Discord = require("discord.js");
+
+// Client oluştur
+var bot = new Discord.Client();
+
+// Lan enayi botu başlatıp kodu dene
+bot.on("ready", function () {
+	console.log("Ready to begin! Serving in " + bot.channels.length + " channels");
+});
+
+// Lan enayi botu kapayınca çalışıyor bu
+bot.on("disconnected", function () {
+	// Konsolu uyar
+	console.log("Disconnected!");
+
+});
